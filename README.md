@@ -1,37 +1,21 @@
-# openai-moderation
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+# openai-modoration
 
-A library for accessing OpenAI's content moderation API.
+A Web/Code project by [Code for FUKUI](https://github.com/code4fukui).
 
-## Features
-- Classify text content as safe or unsafe based on OpenAI's content moderation model
-- Supports batch processing of multiple text inputs
-- Easy to integrate into your application
+**Live demo**: https://code4fukui.github.io/openai-modoration/
 
-## Requirements
-- Python 3.6 or later
-- OpenAI API key
+## Technology Stack
 
-## Usage
 
-### Installation
-Install the library using pip:
+## Installation & Setup
 
-```
-pip install openai-moderation
-```
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/openai-modoration/
 
-### Example Usage
-```python
-from openai_moderation import OpenAIModerator
+## Contributing
 
-moderator = OpenAIModerator(api_key="your_openai_api_key")
-
-text = "This is a sample text to be moderated."
-response = moderator.moderate_text(text)
-
-print(response)
-```
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
